@@ -1,0 +1,41 @@
+/* style.css */
+
+body {
+  text-align: center;
+  background-color: "lightcoral";
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('../images/snake-back.gif'); /* Set the path to your GIF image */
+  background-size: cover; /* Adjust this if needed */
+  background-repeat: no-repeat; /* Adjust this if needed */
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #333;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}

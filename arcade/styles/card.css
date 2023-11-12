@@ -1,0 +1,15 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../images/card-back.jpg'); /* Set the path to your GIF image */
+    background-size: cover; /* Adjust this if needed */
+    background-repeat: no-repeat; /* Adjust this if needed */
+  }
+  
